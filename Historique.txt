@@ -1,0 +1,40 @@
+
+  Id CommandLine                                                                                             
+  -- -----------                                                                                             
+   1 Set-Location -Path C:\...                                                                               
+   2 Set-Location -Path C:\...                                                                               
+
+Set-Location -Path C:\
+#Une écriture possible pour la création d'un dossier
+New-Item -ItemType Directory -Path C:\ -Name FolderTest1
+#Une autre écriture possible pour la création d'un dossier
+New-Item -ItemType Directory -Path C:\FolderTest2
+#Création de fichier vide dans le dossier c:\FolderTest
+New-Item -ItemType File -Path C:\FolderTest1 -Name File1
+New-Item -ItemType File -Path C:\FolderTest1 -Name File2
+New-Item -ItemType File -Path C:\FolderTest1 -Name File3
+New-Item -ItemType File -Path C:\FolderTest1 -Name File4
+New-Item -ItemType File -Path C:\FolderTest1 -Name File5
+#Création de fichier vide dans le dossier c:\FolderTest2
+$Count = 6
+Do
+{
+    New-Item -ItemType File -Path C:\FolderTest2 -Name "File$Count"
+    $Count++
+}
+While ($Count -lt 11)
+
+New-Item -Path EvenFolder -ItemType Directory
+New-Item -Path OddFolder -ItemType Directory
+Set-Location -path C:\FolderTest1
+Move-Item -Path file2,file4 -destination ../EvenFolder
+Move-Item -Path file1,file3,file5 -Destination ../OddFolder
+Set-Location -path C:\
+Set-Location -path C:\FolderTest2
+Move-Item -Path file6,file8,file10 -Destination ../EvenFolder
+Move-Item -Path file7,file9 -Destination ../OddFolder
+Set-Location -path C:\
+Get-ChildItem
+
+Get-History > historique.txt
+Get-ChildItem -Path *Folder* -Recurse > listing.txt

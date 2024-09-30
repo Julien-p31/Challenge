@@ -1,0 +1,25 @@
+
+
+    Directory: C:\EvenFolder
+
+
+Mode                 LastWriteTime         Length Name                                                       
+----                 -------------         ------ ----                                                       
+-a----         9/30/2024  12:40 PM              0 file10                                                     
+-a----         9/30/2024  12:40 PM              0 file2                                                      
+-a----         9/30/2024  12:40 PM              0 file4                                                      
+-a----         9/30/2024  12:40 PM              0 file6                                                      
+-a----         9/30/2024  12:40 PM              0 file8                                                      
+
+
+
+    Directory: C:\OddFolder
+
+
+Mode                 LastWriteTime         Length Name                                                       
+----                 -------------         ------ ----                                                       
+-a----         9/30/2024  12:40 PM              0 file1                                                      
+-a----         9/30/2024  12:40 PM              0 file3                                                      
+-a----         9/30/2024  12:40 PM              0 file5                                                      
+-a----         9/30/2024  12:40 PM              0 file7                                                      
+-a----         9/30/2024  12:40 PM              0 file9                                                      
