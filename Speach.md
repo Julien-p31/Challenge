@@ -7,6 +7,18 @@
 ## 2. Planification de l’intégration de NFS
 - Nous avons planifié l’utilisation de NFS pour le partage des fichiers multimédia entre le serveur et les clients.
 - NFS permettra de centraliser et de partager efficacement les contenus sur le réseau local.
+- Mais aussi SMB (Server Message Block) pour les clients Windows.
+
+**Qu’est-ce que c’est ?**
+- SMB est un protocole de partage de fichiers et de services (comme l'impression) sur un réseau. Il est largement utilisé dans les environnements Windows.
+
+**Pourquoi utiliser SMB pour Windows ?**
+- SMB est le protocole natif de Windows pour le partage de fichiers. Il offre une intégration fluide avec les systèmes d'exploitation Windows et permet une gestion avancée des droits d'accès, des imprimantes et des répertoires partagés.
+ 
+**Avantages de SMB :**
+- Compatibilité Windows : Intégration directe dans les systèmes Windows sans nécessiter de configuration supplémentaire.
+- Gestion des droits d'accès : Permet une gestion avancée des permissions avec des ACLs (Access Control Lists).
+- Partage de périphériques : En plus des fichiers, SMB permet de partager des imprimantes et autres périphériques réseau.
 
 ## 3. Prochaines étapes
 
