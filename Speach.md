@@ -8,9 +8,12 @@
 - Nous avons planifié l’utilisation de NFS pour le partage des fichiers multimédia entre le serveur et les clients.
 - NFS permettra de centraliser et de partager efficacement les contenus sur le réseau local.
 - Mais aussi SMB (Server Message Block) pour les clients Windows.
-
+ ---
 - NFS (Network File System) : Protocole utilisé pour partager des fichiers sur des systèmes Linux/Unix.
-SMB (Server Message Block) : Protocole utilisé pour partager des fichiers sur des systèmes Windows.
+- SMB (Server Message Block) : Protocole utilisé pour partager des fichiers sur des systèmes Windows.
+- NFS : fonctionne généralement sur un réseau local (LAN), souvent sécurisé avec des permissions IP.
+- SMB : peut fonctionner aussi bien en réseau local (LAN) qu'à travers Internet (via des services comme SMB over VPN ou via des services cloud comme OneDrive).
+- Donc, NFS est plus limité au réseau local, tandis que SMB peut être utilisé de manière plus flexible, y compris à distance.
 
 **Qu’est-ce que c’est ?**
 - SMB est un protocole de partage de fichiers et de services (comme l'impression) sur un réseau. Il est largement utilisé dans les environnements Windows.
