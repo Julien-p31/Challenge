@@ -14,6 +14,7 @@
 - NFS : fonctionne généralement sur un réseau local (LAN), souvent sécurisé avec des permissions IP.
 - SMB : peut fonctionner aussi bien en réseau local (LAN) qu'à travers Internet (via des services comme SMB over VPN ou via des services cloud comme OneDrive).
 - Donc, NFS est plus limité au réseau local, tandis que SMB peut être utilisé de manière plus flexible, y compris à distance.
+- C'est en fait un serveur multimédia que tu installes sur un ordinateur ou un NAS (disque dur réseau) pour centraliser et organiser tes fichiers (films, séries, musique, etc.). Ensuite, tu peux accéder à ces fichiers via l'application Plex sur d'autres appareils (smartphones, téléviseurs, tablettes, etc.) pour les lire en streaming.
 
 **Qu’est-ce que c’est ?**
 - SMB est un protocole de partage de fichiers et de services (comme l'impression) sur un réseau. Il est largement utilisé dans les environnements Windows.
