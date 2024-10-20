@@ -1,3 +1,5 @@
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHzh1jbRrlTQ8Ez75ttwqXcCQdCHnukGFxMg&s "WILD CODE SCHOOL")
+
 # **Technicien Supérieur Systèmes et Réseaux**
 
 ## **_Pighini Julien_**
@@ -38,8 +40,3 @@ Passionné par l’informatique et les nouvelles technologies, je suis en transi
 - L'informatique et les nouvelles technologies
 - Films/Séries
 - L'univers du monde spatial ([Thomas Pesquet](https://fr.wikipedia.org/wiki/Thomas_Pesquet))
-
-
-
-
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHzh1jbRrlTQ8Ez75ttwqXcCQdCHnukGFxMg&s "WILD CODE SCHOOL")
