@@ -49,13 +49,13 @@
 - Adresse de broadcast : 172.16.1.95
  ---
 - Sous-réseau 3 : Le Pôle Technicien
-- Adresse de réseau : 172.16.1.96/28
+- Adresse de réseau : 172.16.1.96/27
 - Début de plage IP disponible : 172.16.1.97
-- Fin de plage IP disponible : 172.16.1.110
-- Adresse de broadcast : 172.16.1.111
----
-- Sous-réseau 4 : Le Pôle développement
-- Adresse de réseau : 172.16.1.112/28
-- Début de plage IP disponible : 172.16.1.112
 - Fin de plage IP disponible : 172.16.1.126
 - Adresse de broadcast : 172.16.1.127
+---
+- Sous-réseau 4 : Le Pôle développement
+- Adresse de réseau : 172.16.1.128/28
+- Début de plage IP disponible : 172.16.1.129
+- Fin de plage IP disponible : 172.16.1.142
+- Adresse de broadcast : 172.16.1.143
